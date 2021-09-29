@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+
+#header {
+    background-color: #eee;
+    border-bottom: 1px solid #e0e0e0;
+    height: 30px;
+}
+#header ul li{
+    display: inline-block;
+    border-right: 1px solid gray;
+    padding: 0px 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#header ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black
+}
+
+#header ul li a span{
+    color: red;
+    font-weight: bold;
+}
+
+#header div input{
+    outline: none;
+    font-size: 14px;
+}
+#header div button {
+    border: none;
+    margin-left: -5px;
+    margin-top: 1px;
+}
+
+#header div button i{
+    color: white;
+    background-color: red;
+    display: block;
+    padding: 4px;
+}
+.content div{
+    height: 40px;
+}
+
+.menu-home >ul >li >a,
+.menu-home >ul >li {
+    color: white;
+}
+
+.dong-su-kien ul li a{
+    color: black;
+    font-size: 14px;
+    padding: 5px;
+    display: block;
+}
+.dong-su-kien ul li a:hover{
+    color: red;
+}
+
+.dong-su-kien ul li:first-child{
+    background-color: black;
+}
+
+.dong-su-kien ul li:first-child a{
+    color: white;
+}
+
+.cap1{
+    position: relative;
+}
+
+.cap2 {
+    position: absolute;
+    display: none;
+    background-color: white;
+    top: 100%;
+    left: -78px;
+    width: 200px;
+}
+.cap1:hover .cap2{
+    display: block;
+}
+
+.cap2 li{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.cap2 li a{
+    color: gray;
+    font-size: 14px;
+}
+.cap2 li a:hover{
+    color: red;
+}
+
+
+.tintuc h2 a{
+    height: 200px;
+    color: gray;
+}
+
+.tintuc h2 a:hover{
+    color: black;
+}
+
+
+
+.tien-ich div a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    
+}
+
+.tien-ich div:first-child{
+    height: 30px;
+    line-height: 30px;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+.tien-ich ul li a img{
+    width: 42px;
+    height: 42px;
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none; width: 150px;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(221, 216, 216);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(225, 225, 225, 0.4);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: grey;
+}
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+.mySlides1 a,
+.mySlides2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.footer p{
+    font-size: 13px;
+    line-height: 15px;
+}
