@@ -33,8 +33,11 @@
 }
 #header div button {
     border: none;
-    margin-left: -5px;
-    margin-top: 1px;
+    margin-left: -4px;
+    margin-top: 3px;
+    background: red url(./images/search-13-16.ico) no-repeat center;
+    text-indent: -10000px;
+    padding: 0px 11px;
 }
 
 #header div button i{
